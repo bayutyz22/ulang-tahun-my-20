@@ -1,0 +1,26 @@
+GALAXY LOVE - VERSI 20 FOTO + MUSIK
+===================================
+
+1) GANTI FOTO
+   - Buka folder "images". Di dalamnya ada img1.jpg sampai img20.jpg.
+   - img3.jpg sampai img20.jpg masih placeholder (gambar bernomor). Timpa dengan fotomu.
+   - Nama file harus sama persis: huruf kecil, berakhiran .jpg (img1.jpg, img2.jpg, ... img20.jpg).
+   - Saran ukuran: sisi terpanjang sekitar 1000 piksel, tiap foto di bawah 2 MB.
+     Foto langsung dari kamera HP (3-5 MB) bikin halaman lama dimuat.
+   - Mau jumlah foto lain? Ubah angka TOTAL_PHOTOS di script.js.
+
+2) MUSIK
+   - music.mp3 sudah terpasang (gabungan dua bagian lagu, sekitar 68 detik, diputar berulang).
+   - Mau ganti? Timpa music.mp3 dengan file lain bernama sama.
+   - Pilihan potongan lain ada di folder "musik-alternatif". Salin salah satunya
+     ke folder utama dan ubah namanya jadi music.mp3.
+   - Musik hanya diputar dari music.mp3 (YouTube tidak dipakai lagi karena videonya tidak mengizinkan embed, kode error 150).
+   - Klik tombol "Mainkan Musik" di pojok kanan atas; browser tidak mengizinkan musik jalan sendiri.
+
+3) CARA MENAMPILKAN
+   - Jangan buka index.html dengan klik dua kali. script.js dimuat sebagai module,
+     dan Chrome biasanya memblokirnya kalau dibuka lewat file://.
+   - Cara termudah: seret folder ini (atau file zip-nya) ke https://app.netlify.com/drop
+     lalu klaim dengan akun gratis supaya link-nya tidak terhapus.
+   - Alternatif: VS Code + ekstensi "Live Server", klik kanan index.html > Open with Live Server.
+   - Butuh internet (Three.js dimuat dari unpkg).
